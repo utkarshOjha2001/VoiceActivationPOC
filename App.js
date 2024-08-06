@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const nlp = require('compromise');
 
 const app = express();
-const port = 3000;
+const port = 8000;
 
 app.use(bodyParser.json());
 
@@ -45,5 +45,5 @@ function processMessage(message) {
 }
 
 app.listen(port, () => {
-  console.log(`NLP API listening at http://localhost:${port}`);
+  console.log(`NLP API listening on ${port}`);
 });
