@@ -18,7 +18,7 @@ const trainingData = [
   { text: 'is my device charging', label: 'chargingStatus' },
   { text: 'status of charging', label: 'chargingStatus' },
   { text: 'how is the charging going', label: 'chargingStatus' },
-  
+
   // for cable connection
   { text: 'cable connection', label: 'cableConnection' },
   { text: 'cable is connected', label: 'cableConnection' },
@@ -42,9 +42,7 @@ const trainingData = [
   { text: 'range of battery', label: 'maxBatteryRange' },
   { text: 'how far can the battery go', label: 'maxBatteryRange' },
   { text: 'battery distance', label: 'maxBatteryRange' },
-  { text: "how far i can go with this charging", label: 'maxBatteryRange' },
-  { text: "how far i can go", label: 'maxBatteryRange' },
-  { text: "how far i can go with current charge", label: 'maxBatteryRange' },
+
   // for max speed
   { text: 'max speed', label: 'maxSpeed' },
   { text: 'maximum speed', label: 'maxSpeed' },
@@ -75,7 +73,42 @@ const trainingData = [
   { text: 'current tire pressure', label: 'TirePressure' },
   { text: 'pressure in tires', label: 'TirePressure' },
   { text: 'how much pressure in tires', label: 'TirePressure' },
-  { text: 'check tire pressure', label: 'TirePressure' }
+  { text: 'check tire pressure', label: 'TirePressure' },
+
+  // for call log
+  { text: 'recent call logs', label: 'call_log' },
+  { text: 'recent call list', label: 'call_log' },
+  { text: 'recent call lists', label: 'call_log' },
+  { text: 'call history', label: 'call_log' },
+  { text: 'recent calls', label: 'call_log' },
+  { text: 'show me recent calls', label: 'call_log' },
+
+  // for headlight status query
+  { text: 'turn on my headlight', label: 'headlight_status_query' },
+  { text: 'turn off my headlight', label: 'headlight_status_query' },
+  { text: 'headlight on', label: 'headlight_status_query' },
+  { text: 'headlight off', label: 'headlight_status_query' },
+  { text: 'switch on headlight', label: 'headlight_status_query' },
+  { text: 'switch off headlight', label: 'headlight_status_query' },
+
+  //tire_pressure_query
+  { text: 'range of tire pressure', label: 'tire_pressure_query' },
+  { text: 'expected pressure of tires', label: 'tire_pressure_query' },
+  { text: 'recommended tire pressure', label: 'tire_pressure_query' },
+  { text: 'optimal tire pressure', label: 'tire_pressure_query' },
+  { text: 'ideal pressure for tires', label: 'tire_pressure_query' },
+  { text: 'what should be tire pressure', label: 'tire_pressure_query' },
+
+  //make_call
+  { text: 'call', label: 'make_call' },
+  { text: 'call emergency', label: 'make_call' },
+  { text: 'make a call', label: 'make_call' },
+  { text: 'place a call', label: 'make_call' },
+  { text: 'dial a number', label: 'make_call' },
+  { text: 'initiate call', label: 'make_call' },
+  { text: 'start a call', label: 'make_call' },
+  { text: 'call now', label: 'make_call' },
+  { text: 'phone call', label: 'make_call' }
 ];
 
 
